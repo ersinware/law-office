@@ -1,0 +1,94 @@
+.full-w {
+    width: 100vw;
+
+    margin-left: calc((100vw - 100%) / -2);
+}
+
+.p-t-for-header-for-page {
+    padding-top: calc(var(--header-height) + var(--page-v-padding));
+}
+
+.image-with-text {
+    aspect-ratio: 1/1;
+    margin-bottom: calc(var(--main-v-padding) - 0.25rem);
+
+    fill: var(--accent-color);
+}
+
+.lawyer-image-our-team-page {
+    aspect-ratio: 16/18;
+}
+
+.about-us-page-text {
+    max-width: 39rem;
+}
+
+.about-us-page-small-title {
+    letter-spacing: 0.015rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-us-page-italic-text {
+    letter-spacing: -0.015rem;
+}
+
+#contact-text {
+    max-width: calc(var(--max-w-phone) - var(--main-h-padding) * 2);
+}
+
+.contact-item-content-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    fill: var(--accent-color);
+}
+
+@media (min-width: 65.001em) {
+    .homepage-slider-image {
+        aspect-ratio: 16/8;
+    }
+
+    .about-us-slider-item-content,
+    .about-us-slider-image {
+        max-width: var(--max-w-small-page);
+        aspect-ratio: 16/12;
+    }
+}
+
+@media (max-width: 65em) {
+    .homepage-slider-image {
+        aspect-ratio: 16/14;
+    }
+
+    .about-us-slider-item-content,
+    .about-us-slider-image {
+        max-width: 45rem;
+        aspect-ratio: 16/16;
+    }
+}
+
+@media (max-width: 55em) {
+    .homepage-slider-image {
+        aspect-ratio: 16/16;
+    }
+}
+
+@media (max-width: 45em) {
+    .homepage-slider-image {
+        aspect-ratio: 16/18;
+    }
+}
+
+@media(min-width: 42.001em) {
+    .lawyer-image-person-page {
+        aspect-ratio: 16/16;
+        max-width: 45rem;
+    }
+}
+
+@media (max-width: 42em) {
+    .lawyer-image-person-page {
+        aspect-ratio: 16/18;
+    }
+}
