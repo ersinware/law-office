@@ -1,6 +1,6 @@
 # Notes
 
-To log into the management panel, go to the /panele-giris-yap page use the following credentials:
+To log into the management panel, go to the /panele-giriş-yap page use the following credentials:
 <br/>
 Email address: a1@gmail.com
 <br/>
